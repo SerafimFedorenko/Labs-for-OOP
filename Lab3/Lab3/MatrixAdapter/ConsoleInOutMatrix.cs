@@ -7,8 +7,15 @@ using MatrixLibrary;
 
 namespace MatrixAdapter
 {
+    /// <summary>
+    /// Класс реализующий ввод и вывод матрицы в консоль 
+    /// </summary>
     public class ConsoleInOutMatrix : IMatrixInOut
     {
+        /// <summary>
+        /// Ввод матрицы
+        /// </summary>
+        /// <returns></returns>
         public Matrix InputMatrix()
         {
             bool flag = false;
@@ -44,7 +51,10 @@ namespace MatrixAdapter
             Matrix matrixObject = new Matrix(matrix, name);
             return matrixObject;
         }
-
+        /// <summary>
+        /// Вывод матрицы
+        /// </summary>
+        /// <param name="matrix"></param>
         public void OutputMatrix(Matrix matrix)
         {
             Console.WriteLine($"Матрица {matrix.Name}:");
