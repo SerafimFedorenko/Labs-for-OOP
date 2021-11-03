@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiguresLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:FiguresLibrary.Trapezoid.#ctor(System.Double,System.Double)">
+            <summary>
+            Корструктор класса Trapezoid, определяющий верхнюю и нижнюю границы трапеции
+            </summary>
+            <param name="x1"></param>
+            <param name="x2"></param>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.IsExist">
+            <summary>
+            Метод проверяющий существование фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.CalcSides">
+            <summary>
+            Метод, считающий стороны фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.CalcPerimeter">
+            <summary>
+            Метод, считающий периметр фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.CalcSquare">
+            <summary>
+            Метод, считающий площадь фигуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.IsBelongsToTheBorder(System.Double,System.Double)">
+            <summary>
+            Метод, проверяющий принадлежность точки к границе фигуры
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.IsBelongsToTheFigure(System.Double,System.Double)">
+            <summary>
+            Метод проверяющий принадлежность точки фигуре
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.Integration(System.Double,System.Double)">
+            <summary>
+            </summary>
+            <param name="a"></param>
+            Метод, осуществляющий интегрирование, необходимое для вычисления длины дуги кривой
+            <param name="b"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FiguresLibrary.Trapezoid.Foo(System.Double)">
+            <summary>
+            Метод, содержащий подынтегральную функцию
+            </summary>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
