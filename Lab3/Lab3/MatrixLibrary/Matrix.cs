@@ -253,6 +253,11 @@ namespace MatrixLibrary
             }
             return false;
         }
+        /// <summary>
+        /// Метод выясняющий, одинакового ли размера матрицы
+        /// </summary>
+        /// <param name="matrix"></param>
+        /// <returns></returns>
         public bool IsEqual(Matrix matrix)
         {
             if (Columns == matrix.Columns && Rows == matrix.Rows)

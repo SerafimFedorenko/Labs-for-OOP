@@ -30,32 +30,32 @@ namespace MatrixConsole
         {
             try
             {
-                Console.WriteLine($"Среднее значение отрицательных элементов в матрице {matrixA.Name}:");
-                Console.Write($" {Math.Round(matrixA.GetAverageMeanOfNegative(3), 3)}:");
+                Console.Write($"\nСреднее значение отрицательных элементов в матрице {matrixA.Name}:");
+                Console.WriteLine($" {Math.Round(matrixA.GetAverageMeanOfNegative(3), 3)}:");
             }
             catch
             {
-                Console.WriteLine("Вычисление невозможно! " +
+                Console.Write("\nВычисление невозможно! " +
                 $"В матрице {matrixA.Name} отрицательных элементов повторяющихся больше 3 раз!");
             }
             try
             {
-                Console.WriteLine($"Среднее значение отрицательных элементов в матрице {matrixB.Name}:");
-                Console.Write($" {Math.Round(matrixB.GetAverageMeanOfNegative(3), 3)}:");
+                Console.Write($"\nСреднее значение отрицательных элементов в матрице {matrixB.Name}:");
+                Console.WriteLine($" {Math.Round(matrixB.GetAverageMeanOfNegative(3), 3)}:");
             }
             catch
             {
-                Console.WriteLine("Вычисление невозможно! " +
+                Console.WriteLine("\nВычисление невозможно! " +
                 $"В матрице {matrixB.Name} отрицательных элементов повторяющихся больше 3 раз!");
             }
             try
             {
-                Console.WriteLine($"Среднее значение отрицательных элементов в матрице {matrixC.Name}:");
-                Console.Write($" {Math.Round(matrixC.GetAverageMeanOfNegative(3), 3)}:");
+                Console.Write($"\nСреднее значение отрицательных элементов в матрице {matrixC.Name}:");
+                Console.WriteLine($" {Math.Round(matrixC.GetAverageMeanOfNegative(3), 3)}:");
             }
             catch
             {
-                Console.WriteLine("Вычисление невозможно! " +
+                Console.WriteLine("\nВычисление невозможно! " +
                 $"В матрице {matrixC.Name} отрицательных элементов повторяющихся больше 3 раз!");
             }
         }
@@ -93,6 +93,7 @@ namespace MatrixConsole
                                 {
                                     Console.WriteLine($"В произведении массивов {matrixA.Name} и {matrixB.Name} \n" +
                                         "нет повторяющихся больше двух раз отрицательных элементов");
+                                    break;
                                 }
                             }
                         }
@@ -121,7 +122,7 @@ namespace MatrixConsole
             {
                 Console.WriteLine("Ввeдите пункт меню:");
                 Console.WriteLine("1. Ввод и вывод трех матриц А, В и С;");
-                Console.WriteLine("2. Вычисление и вывод среднего арифметического + \n" +
+                Console.WriteLine("2. Вычисление и вывод среднего арифметического \n" +
                     "отрицательных элементов матрицы, которые повторяются более 3 раз в каждой матрице;");
                 Console.WriteLine("3. Вычисление А*В*С, если это возможно;");
                 Console.WriteLine("4. Если среднее арифметическое отрицательных элементов матрицы А больше заданного числа, \n" +
