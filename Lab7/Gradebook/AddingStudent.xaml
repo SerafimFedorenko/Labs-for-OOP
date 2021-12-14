@@ -1,0 +1,83 @@
+﻿<Window x:Class="Gradebook.AddingStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gradebook"
+        mc:Ignorable="d"
+        Title="AddingStudent" Height="200" Width="800">
+    <Grid>
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="208" RenderTransformOrigin="1.485,5.132" Margin="50,37,0,0"/>
+        <Label Content="Полное имя студента" HorizontalAlignment="Left" Margin="50,6,0,0" VerticalAlignment="Top" Width="142"/>
+        <ComboBox Name="phonesList1" Height="23" Margin="278,37,481,0" VerticalAlignment="Top">
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <TextBlock>7</TextBlock>
+            <TextBlock>8</TextBlock>
+            <TextBlock>9</TextBlock>
+            <TextBlock>10</TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="phonesList2" Height="23" Margin="316,37,443,0" VerticalAlignment="Top">
+            <TextBlock><Run Text="1"/></TextBlock>
+            <TextBlock><Run Text="2"/></TextBlock>
+            <TextBlock><Run Text="3"/></TextBlock>
+            <TextBlock><Run Text="4"/></TextBlock>
+            <TextBlock><Run Text="5"/></TextBlock>
+            <TextBlock><Run Text="6"/></TextBlock>
+            <TextBlock><Run Text="7"/></TextBlock>
+            <TextBlock><Run Text="8"/></TextBlock>
+            <TextBlock><Run Text="9"/></TextBlock>
+            <TextBlock><Run Text="10"/></TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="phonesList3" Height="23" Margin="354,37,405,0" VerticalAlignment="Top">
+            <TextBlock><Run Text="1"/></TextBlock>
+            <TextBlock><Run Text="2"/></TextBlock>
+            <TextBlock><Run Text="3"/></TextBlock>
+            <TextBlock><Run Text="4"/></TextBlock>
+            <TextBlock><Run Text="5"/></TextBlock>
+            <TextBlock><Run Text="6"/></TextBlock>
+            <TextBlock><Run Text="7"/></TextBlock>
+            <TextBlock><Run Text="8"/></TextBlock>
+            <TextBlock><Run Text="9"/></TextBlock>
+            <TextBlock><Run Text="10"/></TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="phonesList4" Height="23" Margin="392,37,367,0" VerticalAlignment="Top">
+            <TextBlock><Run Text="1"/></TextBlock>
+            <TextBlock><Run Text="2"/></TextBlock>
+            <TextBlock><Run Text="3"/></TextBlock>
+            <TextBlock><Run Text="4"/></TextBlock>
+            <TextBlock><Run Text="5"/></TextBlock>
+            <TextBlock><Run Text="6"/></TextBlock>
+            <TextBlock><Run Text="7"/></TextBlock>
+            <TextBlock><Run Text="8"/></TextBlock>
+            <TextBlock><Run Text="9"/></TextBlock>
+            <TextBlock><Run Text="10"/></TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="phonesList5" Height="23" Margin="430,37,329,0" VerticalAlignment="Top">
+            <TextBlock><Run Text="1"/></TextBlock>
+            <TextBlock><Run Text="2"/></TextBlock>
+            <TextBlock><Run Text="3"/></TextBlock>
+            <TextBlock><Run Text="4"/></TextBlock>
+            <TextBlock><Run Text="5"/></TextBlock>
+            <TextBlock><Run Text="6"/></TextBlock>
+            <TextBlock><Run Text="7"/></TextBlock>
+            <TextBlock><Run Text="8"/></TextBlock>
+            <TextBlock><Run Text="9"/></TextBlock>
+            <TextBlock><Run Text="10"/></TextBlock>
+        </ComboBox>
+        <ComboBox x:Name="comboBox1" Height="23" Margin="670,37,24,0" VerticalAlignment="Top">
+            <TextBlock><Run Text="Бюджетник"/></TextBlock>
+            <TextBlock><Run Text="Платник"/></TextBlock>
+        </ComboBox>
+        <Button Content="Добавить студента" FontSize="22"
+                Click="Button_Click" Margin="10,116,541,10"/>
+        <CheckBox Name="checkBox1" Content="Сдал сессию вовремя" FontSize="14" HorizontalAlignment="Left" Margin="483,37,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label Content="Форма оплаты обучения" HorizontalAlignment="Left" Margin="641,5,0,0" VerticalAlignment="Top" Width="151" Height="32"/>
+        <Button Content="В меню" FontSize="22"
+            Click="Button1_Click" Margin="541,116,10,10"/>
+    </Grid>
+</Window>
